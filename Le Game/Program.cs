@@ -10,14 +10,13 @@ namespace Le_Game
             Random random = new Random();
             int nahodneCislo;
 
-            while (true)
-            {
+            nahodneCislo = random.Next(1, 101);
 
-                nahodneCislo = random.Next(1, 5);
-                Console.WriteLine(nahodneCislo);
-                Console.ReadLine();
-            }
-            
+            Console.WriteLine("Hádací hra");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Myslím si číslo od 1 do 100");
+
+            Console.ReadLine();
 
             
         }
