@@ -6,7 +6,20 @@ namespace Le_Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Le Game");
+            Random random = new Random();
+            int nahodneCislo;
+
+            while (true)
+            {
+
+                nahodneCislo = random.Next(1, 5);
+                Console.WriteLine(nahodneCislo);
+                Console.ReadLine();
+            }
+            
+
+            
         }
     }
 }
